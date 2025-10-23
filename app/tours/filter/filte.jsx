@@ -28,7 +28,7 @@ export default function Filter() {
     },
   ];
   return (
-    <div className="shadow-[0px_4px_12px_3px_#0000000D] p-6 rounded-3xl bg-white flex flex-col gap-8">
+    <div className="shadow-[0px_4px_12px_3px_#0000000D] h-fit p-6 rounded-3xl bg-white flex flex-col gap-8">
       <select name="" id="">
         <option value="1">1</option>
       </select>

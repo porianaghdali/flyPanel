@@ -1,4 +1,3 @@
-import Image from "next/image";
 import HeroSection from "./homePage/heroSection/heroSection";
 import ChosenDestinations from "./homePage/chosenDestinations/chosenDestinations";
 import SearchSection from "./homePage/searchSection/searchSection";
