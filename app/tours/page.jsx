@@ -17,7 +17,8 @@ export default function Tours(){
         <div className="sticky top-4 h-fit">
             <Filter/>
         </div>
-        <div className="flex-1">
+        <div className="flex-1"> 
+            
             <Result/>
         </div>
     </div>
