@@ -34,29 +34,33 @@ export default function SearchSection() {
     {
       title: "مبدا",
       id: "start",
-      selected: "تهران",icon:<MapPinIcon size={24} />
+      selected: "تهران",
+      icon: <MapPinIcon size={24} />,
     },
     {
       title: "مقصد",
       id: "end",
-      selected: "استانبول",icon:<MapPinIcon size={24} />
+      selected: "استانبول",
+      icon: <MapPinIcon size={24} />,
     },
     {
       title: "تاریخ رفت",
       id: "goneDate",
-      selected: "۱۴۰۴/۰۲/۱۱",icon:<Calendar size={24} />
+      selected: "۱۴۰۴/۰۲/۱۱",
+      icon: <Calendar size={24} />,
     },
-      {
+    {
       title: "تاریخ برگشت",
       id: "returnDate",
-      selected: "۱۴۰۴/۰۲/۱۷",icon:<Calendar size={24} />
+      selected: "۱۴۰۴/۰۲/۱۷",
+      icon: <Calendar size={24} />,
     },
     {
       title: "تعداد مسافر",
-      id: "numberOfPassengers",      selected: "۳",icon:<UserRound />
-
+      id: "numberOfPassengers",
+      selected: "۳",
+      icon: <UserRound />,
     },
-
   ];
   const [selected, setSelected] = useState("internal");
   return (
@@ -76,7 +80,9 @@ export default function SearchSection() {
               key={item.id}
             >
               <button
-                className=" cursor-pointer font-extrabold text-sm whitespace-nowrap"
+                role="tab"
+                aria-selected={selected === item.id}
+                className="  font-extrabold text-sm whitespace-nowrap"
                 onClick={() => {
                   setSelected(item.id);
                 }}
@@ -88,7 +94,6 @@ export default function SearchSection() {
           <li className="w-full border-b border-[#E6E6E6]"></li>
         </ul>
         <div className="w-full flex justify-between p-6 items-center bg-[#FDFBF7] shadow-[ 0px 4px 9px 3px rgba(0, 0, 0, 0.11)] rounded-b-3xl">
-        
           <div className="flex flex-col gap-5 ">
             <div className="flex gap-1 text-[#525252]">
               <MapPinIcon size={24} />{" "}

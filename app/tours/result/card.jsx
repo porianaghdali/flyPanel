@@ -1,8 +1,9 @@
 import StarRating from "@/app/components/starRate";
 import { Bed, Plane } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
-export default function Card() {
+export default function Card({id}) {
   const list = [
     { title: "اتاق استاندارد", id: 1 },
     { title: "همراه با صبحانه", id: 2 },
@@ -40,6 +41,9 @@ export default function Card() {
           <p className="text-[#1C1C1F] font-semibold text-base">تومان</p>
         </div>
       </div>
+
+
+
       <div className="grid grid-cols-4 gap-6">
         <div className="col-span-3 ">
           <div className="grid gap-3">
@@ -73,6 +77,8 @@ export default function Card() {
                     </p>{" "}
                   </div>
                 </div>
+
+
 
                 <div className="grid gap-2 justify-center">
                   <div className="text-[#1C1C1F] flex gap-2 items-center justify-center">
@@ -158,18 +164,20 @@ export default function Card() {
             </div>
           </div>
         </div>
+
+
         <div className="col-span-1 flex flex-col justify-center gap-3">
-          <button className="text-white font-bold text-base bg-[#511424] py-3 px-4 rounded-3xl">
+          <Link href={`/tours/${id}`} className="text-center  text-white font-bold text-base bg-[#511424] py-3 px-4 rounded-3xl">
             توضیحات و خرید آنلاین
-          </button>
+          </Link>
           <div className="flex font-semibold text-xs items-center px-3 text-[#555555] justify-between">
             <p>مجموع ۲ نفر</p>
             <p>۲۵٬۴۴۴٬۲۰۰ تومان</p>
           </div>
-          <button className="text-[#511424] font-extrabold flex gap-1 border border-[#511424] justify-center text-base bg-white py-3 px-4 rounded-3xl">
+          <button className=" text-[#511424] font-extrabold flex gap-1 border border-[#511424] justify-center text-base bg-white py-3 px-4 rounded-3xl">
             <Bed size={24} /> <p>تغییر اتاق</p>{" "}
           </button>
-           <button className="text-[#D3AE60] font-extrabold flex gap-1 border border-[#D3AE60] justify-center text-base bg-white py-3 px-4 rounded-3xl">
+           <button className=" text-[#D3AE60] font-extrabold flex gap-1 border border-[#D3AE60] justify-center text-base bg-white py-3 px-4 rounded-3xl">
             <Plane className=" -rotate-45" size={24} /> <p> تغییر پرواز</p>{" "}
           </button>
         </div>

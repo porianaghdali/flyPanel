@@ -10,7 +10,7 @@ import Search from "./search/search";
 
 export default function Tours(){
     return(
-       <div className="flex flex-col gap-12">
+       <div className="flex flex-col gap-12 px-[5%]">
     <Search/>
     <Calendar/>
     <div className="flex gap-6 items-start">

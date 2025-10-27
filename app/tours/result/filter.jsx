@@ -30,7 +30,6 @@ export default function Filter() {
                     onClick={() => {
                       setSelected(item.id);
                     }}
-                    className="cursor-pointer"
                   >
                     {item.title}
                   </button>

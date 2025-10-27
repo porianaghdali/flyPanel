@@ -27,7 +27,7 @@ export default function AboutTour() {
           <p className="font-bold text-2xl text-[#5E6282] mb-5">
             درباره تورهای راهیتو
           </p>
-          <p className="font-black text-5xl text-[#14183E mb-12">
+          <p className="font-black text-5xl text-[#14183E] mb-12">
             حساب شده سفر بریم!
           </p>
           <ul className="list-disc flex flex-col  gap-12 pr-4 pl-16">

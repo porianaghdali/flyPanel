@@ -38,3 +38,6 @@ body {
   color: var(--foreground);
   font-family: var(--font-iran);
 }
+button{
+  cursor: pointer;
+}

@@ -36,16 +36,15 @@ export default function Result() {
 
 
       <div  className="grid gap-6">
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
+        <Card id={1}/>
+        <Card id={1}/>
+        <Card id={1}/>
+        <Card id={1}/>
+        <Card id={1}/>
+        <Card id={1}/>
+        <Card id={1}/>
+        <Card id={1}/>
+       
         </div>
     </div>
   );
