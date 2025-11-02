@@ -28,15 +28,7 @@ export default function LoginPage() {
         </div>
 
       <div className="col-span-2  pt-[3%]  justify- ">
-        {/* <div className="px-[5%] pt-[3%]">
-          <Image
-            src="/images/logo.png"
-            className=""
-            width={150}
-            height={44}
-            alt="Logo"
-          />
-        </div> */}
+    
 
         <div className="  max-w-[381px] w-full mx-auto  py-[5%]">
           <form className="grid gap-8  ">
