@@ -28,7 +28,7 @@ export default function Card({id}) {
             Neva Flats
           </p>
           <div className="flex items-center gap-1 ml-6">
-            <StarRating value={4.5} />{" "}
+            <StarRating value={4.5} />
             <p className="text-[#1C1C1F] font-semibold text-base">4.5</p>
           </div>
           <p className="text-base font-semibold text-[#555555]">۱۲۲ نظر</p>
@@ -71,10 +71,10 @@ export default function Card({id}) {
                     <p>IKAC</p>
                   </div>
                   <div className="flex gap-2 items-center justify-center">
-                    <p className="text-[#1C1C1F] text-sm font-black"> تهران</p>{" "}
+                    <p className="text-[#1C1C1F] text-sm font-black"> تهران</p>
                     <p className="text-[#525252] font-medium text-base">
                       ۱۹:۰۰
-                    </p>{" "}
+                    </p>
                   </div>
                 </div>
 
@@ -90,7 +90,7 @@ export default function Card({id}) {
                   </div>
                   <div className="flex gap-2 items-center justify-center text-[#1C1C1F] text-sm font-semibold">
                     <p className=""> ۲۸ اسفند</p> -
-                    <p className="">۳ فروردین </p>{" "}
+                    <p className="">۳ فروردین </p>
                   </div>
                 </div>
 
@@ -101,12 +101,12 @@ export default function Card({id}) {
                   </div>
                   <div className="flex gap-2 items-center justify-center">
                     <p className="text-[#1C1C1F] text-sm font-black">
-                      {" "}
+                      
                       استانبول
-                    </p>{" "}
+                    </p>
                     <p className="text-[#525252] font-medium text-base">
-                      ۱۰:۳۰{" "}
-                    </p>{" "}
+                      ۱۰:۳۰
+                    </p>
                   </div>
                 </div>
               </div>
@@ -116,7 +116,7 @@ export default function Card({id}) {
                 height={1}
                 alt="Logo"
                 className="w-[94%] mx-auto"
-              />{" "}
+              />
               <div className=" bg-[#FDFBF7] py-4 px-5 grid grid-cols-3 justify-between rounded-tr-3xl rounded-tl-xl rounded-br-xl">
                 <div className="grid gap-2 justify-start">
                   <div className="text-[#1C1C1F] text-sm font-normal flex gap-2 items-center justify-center">
@@ -125,12 +125,12 @@ export default function Card({id}) {
                   </div>
                   <div className="flex gap-2 items-center justify-center">
                     <p className="text-[#1C1C1F] text-sm font-black">
-                      {" "}
+                      
                       استانبول
-                    </p>{" "}
+                    </p>
                     <p className="text-[#525252] font-medium text-base">
-                      ۱۰:۳۰{" "}
-                    </p>{" "}
+                      ۱۰:۳۰
+                    </p>
                   </div>
                 </div>
 
@@ -144,7 +144,7 @@ export default function Card({id}) {
                   </div>
                   <div className="flex gap-2 items-center justify-center text-[#1C1C1F] text-sm font-semibold">
                     <p className=""> ۲۸ اسفند</p> -
-                    <p className="">۳ فروردین </p>{" "}
+                    <p className="">۳ فروردین </p>
                   </div>
                 </div>
 
@@ -154,10 +154,10 @@ export default function Card({id}) {
                     <p>IKAC</p>
                   </div>
                   <div className="flex gap-2 items-center justify-center">
-                    <p className="text-[#1C1C1F] text-sm font-black"> تهران</p>{" "}
+                    <p className="text-[#1C1C1F] text-sm font-black"> تهران</p>
                     <p className="text-[#525252] font-medium text-base">
                       ۱۹:۰۰
-                    </p>{" "}
+                    </p>
                   </div>
                 </div>
               </div>
@@ -175,10 +175,10 @@ export default function Card({id}) {
             <p>۲۵٬۴۴۴٬۲۰۰ تومان</p>
           </div>
           <button className=" text-[#511424] font-extrabold flex gap-1 border border-[#511424] justify-center text-base bg-white py-3 px-4 rounded-3xl">
-            <Bed size={24} /> <p>تغییر اتاق</p>{" "}
+            <Bed size={24} /> <p>تغییر اتاق</p>
           </button>
            <button className=" text-[#D3AE60] font-extrabold flex gap-1 border border-[#D3AE60] justify-center text-base bg-white py-3 px-4 rounded-3xl">
-            <Plane className=" -rotate-45" size={24} /> <p> تغییر پرواز</p>{" "}
+            <Plane className=" -rotate-45" size={24} /> <p> تغییر پرواز</p>
           </button>
         </div>
       </div>

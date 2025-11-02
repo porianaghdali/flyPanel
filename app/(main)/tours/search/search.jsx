@@ -19,10 +19,7 @@ export default function SearchTisket() {
   ];
   const [active, setActive] = useState(4);
   return (
-    <div
-      className=" px-[5%] pb-6 grid gap-6 bg-white  shadow-[0px_4px_12px_3px_#0000000D]
-"
-    >
+    <div className=" px-[5%] pb-6 grid gap-6 bg-white  shadow-[0px_4px_12px_3px_#0000000D]">
       <div className="flex mx-auto py-6 gap-6">
         <div className="flex gap-6 relative">
           <Select />
@@ -42,7 +39,10 @@ export default function SearchTisket() {
         <div className="flex items-center justify-center">
           {progress.map((item) => {
             return (
-              <div key={item.id} className="flex items-center justify-center w-full">
+              <div
+                key={item.id}
+                className="flex items-center justify-center w-full"
+              >
                 <div
                   className={
                     active >= item.id
@@ -56,7 +56,7 @@ export default function SearchTisket() {
                 {item.id !== 4 && (
                   <hr
                     className={
-                      active >= item.id+1
+                      active >= item.id + 1
                         ? "h-[2px] text-[#D3AE60]  bg-[#D3AE60] w-full max-w-[173px]"
                         : "h-[2px] text-[#B1B3C8]  bg-[#B1B3C8] w-full max-w-[173px]"
                     }
@@ -65,7 +65,6 @@ export default function SearchTisket() {
               </div>
             );
           })}
-      
         </div>
       </div>
     </div>

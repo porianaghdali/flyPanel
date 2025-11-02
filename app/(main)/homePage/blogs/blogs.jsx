@@ -7,11 +7,11 @@ export default function Blogs() {
     <div className="w-full">
       <div className="flex flex-col items-center relative mb-2">
         <p className="font-extrabold text-[32px] text-[#1C1C1F] z-20">
-          سفرنامه‌ها و مجله گردشگری{" "}
+          سفرنامه‌ها و مجله گردشگری
         </p>
-      </div>{" "}
+      </div>
       <p className="text-base font-medium text-[#1C1C1F] text-center mb-12">
-        هرچه راجب سفر نیاز دارید، را بخوانید{" "}
+        هرچه راجب سفر نیاز دارید، را بخوانید
       </p>
       <div className="flex gap-6 justify-center">
         <div className="w-[38%]  h-fit rounded-3xl bg-white shadow-[0px_4px_9px_3px_#0000001C]">
@@ -39,7 +39,7 @@ export default function Blogs() {
               </div>
             </div>
           </div>
-        </div>{" "}
+        </div>
         <div className="grid gap-6 w-[62%] ">
           <Card />
           <Card />

@@ -50,7 +50,7 @@ export default function Filter() {
             );
           })}
         </div>
-      </div>{" "}
+      </div>
       <hr className="h-[1px] text-[#E6E6E6]" />
       <div>
         <div className="flex justify-between items-center mb-6">

@@ -25,7 +25,7 @@ export default function Card() {
         <div className="flex gap-1 items-center">
           <BusFront size={24} color="#525252" />
           <p className="font-semibold text-[#525252]  text-base leading-8">
-            با اتوبوس{" "}
+            با اتوبوس
           </p>
         </div>
       </div>

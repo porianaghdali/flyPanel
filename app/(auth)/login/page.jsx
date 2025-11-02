@@ -32,12 +32,12 @@ export default function LoginPage() {
 
         <div className="  max-w-[381px] w-full mx-auto  py-[5%]">
           <form className="grid gap-8  ">
-            {" "}
+            
             <h1 className="text-[40px] font-extrabold text-start  text-[#1C1C1F]">
               ورود/ثبت نام
             </h1>
             <div className=" relative">
-              {" "}
+              
               <label
                 htmlFor="number"
                 className="text-[#555555] font-semibold text-base absolute bg-white right-4 px-1 -translate-y-1/2"

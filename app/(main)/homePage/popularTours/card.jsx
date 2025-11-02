@@ -30,13 +30,13 @@ export default function Card() {
         <div className="flex justify-between items-center">
           <div className="text-xl flex gap-2 items-center  font-medium text-[#1C1C1F]">
             <p> از ۲۹٬۹۹۹٬۱۹۰ تومان</p>+<p>۱۷۸۰ دلار</p>
-          </div>{" "}
+          </div>
           <div className="text-xl flex gap-2 items-center font-medium text-[#1C1C1F]">
               <Calendar/><p> ویژه دی و بهمن</p>
-          </div>{" "}
+          </div>
           <div className="text-xl flex gap-2 items-center font-medium text-[#1C1C1F]">
             <p><Calendar/> </p><p>ایران ایرتور </p>
-          </div>{" "}
+          </div>
           <Link
             href=""
             className="text-base py-2 px-5 rounded-3xl font-semibold bg-[#D3AE60] text-white"

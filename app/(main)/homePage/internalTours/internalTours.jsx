@@ -13,11 +13,11 @@ export default function ChosenDestinations() {
             />
         
         <p className="font-extrabold text-[32px] text-[#1C1C1F] ">
-          تورهای داخلی{" "}
+          تورهای داخلی
         </p>
-      </div>{" "}
+      </div>
       <p className="text-base font-medium text-[#1C1C1F] text-center mb-12">
-        تورهای ویژه ارزان قیمت و زمینی{" "}
+        تورهای ویژه ارزان قیمت و زمینی
       </p>
       <div className="flex gap-6 justify-center">
         <Card />

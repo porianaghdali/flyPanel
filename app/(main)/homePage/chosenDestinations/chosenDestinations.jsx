@@ -15,7 +15,7 @@ export default function ChosenDestinations() {
         <p className="font-extrabold text-[32px] text-[#1C1C1F] z-20">
           مقاصد برگزیده
         </p>
-      </div>{" "}
+      </div>
       <p className="text-base font-medium text-[#1C1C1F] text-center mb-12">
         مقاصد پرطرفدار انتخاب شده توسط مسافران تور‌های زمستان-بهار
       </p>

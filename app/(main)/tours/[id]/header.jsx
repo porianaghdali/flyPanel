@@ -26,7 +26,7 @@ export default function Header(){
                     <div className="grid gap-3.5">
                       <div className="flex items-center ">
                         <div className="flex items-center gap-1 ml-6">
-                          <StarRating value={4.5} />{" "}
+                          <StarRating value={4.5} />
                           <p className="text-[#1C1C1F] font-semibold text-base">4.5</p>
                         </div>
                         <p className="text-base font-semibold text-[#555555]">
@@ -34,7 +34,7 @@ export default function Header(){
                         </p>
                       </div>
                       <p className="text-[#1C1C1F] font-bold text-[32px] ml-3">
-                        Elite World Istanbul Taksim{" "}
+                        Elite World Istanbul Taksim
                       </p>
                     </div>
                   </div>

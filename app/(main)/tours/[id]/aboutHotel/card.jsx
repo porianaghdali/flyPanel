@@ -14,11 +14,11 @@ export default function Card() {
       />
       <div className="grid gap-6">
         <p className="font-medium text-[#1C1C1F] text-xl ">
-          سبزترین هتل استانبول{" "}
+          سبزترین هتل استانبول
         </p>
 
         <p className="text-[#212121] font-bold text-2xl ">
-          Elite World Istanbul Taksim{" "}
+          Elite World Istanbul Taksim
         </p>
       </div>
       <div style={

@@ -148,7 +148,7 @@ export default function RangeSlider({
         </div>
 
         {/* نمایش مقادیر */}
-      </div>{" "}
+      </div>
       <div className="flex flex-col gap-7 mt-6 text-sm w-full text-gray-600">
         <div className="text-[#1C1C1F] w-full font-semibold flex justify-between items-center px-2 py-2.5 border border-[#E6E8E7]  rounded-lg ">
           <p className=" text-xl">

@@ -30,7 +30,7 @@ export default function Card() {
         </div>
         <div className=" flex flex-col justify-between gap-2">
           <div className="text-base flex gap-1 justify-center items-center text-center text-[#1C1C1F] font-semibold">
-            {" "}
+            
             <p> از </p>
              
             <span className="text-3xl font-extrabold text-[#511424]">

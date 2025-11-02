@@ -62,7 +62,7 @@ export default function aboutHotel() {
               />
               <div>
                 <p className="text-[#84829A] font-medium text-lg leading-[125%]">
-                  استخر بازی{" "}
+                  استخر بازی
                 </p>
               </div>
             </div>
@@ -78,7 +78,7 @@ export default function aboutHotel() {
               />
               <div>
                 <p className="text-[#84829A] font-medium text-lg leading-[125%]">
-                  کافه ۲۴/۷{" "}
+                  کافه ۲۴/۷
                 </p>
               </div>
             </div>

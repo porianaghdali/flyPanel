@@ -30,11 +30,11 @@ export default function RahitoVsOthers() {
     <div className="w-full">
       <div className="flex flex-col items-center relative mb-4">
         <p className="font-extrabold text-[32px] text-[#1C1C1F] ">
-          وجه تمایز راهیتو از دیگران{" "}
+          وجه تمایز راهیتو از دیگران
         </p>
-      </div>{" "}
+      </div>
       <p className="text-base font-medium text-[#1C1C1F] text-center mb-12">
-        مقاصد پرطرفدار انتخاب شده توسط مسافران تور‌های زمستان-بهار{" "}
+        مقاصد پرطرفدار انتخاب شده توسط مسافران تور‌های زمستان-بهار
       </p>
       <div className="grid grid-cols-4 gap-6 justify-center ">
         {list.map((item, index) => (

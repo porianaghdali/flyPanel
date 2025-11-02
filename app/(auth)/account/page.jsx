@@ -48,7 +48,7 @@ export default function Account() {
               className="text-[#525252] font-semibold text-base"
               htmlFor=""
             >
-              {" "}
+              
               ایمیل
             </label>
             <div className="flex  gap-2">
@@ -65,7 +65,7 @@ export default function Account() {
               className="text-[#525252] font-semibold text-base"
               htmlFor=""
             >
-              {" "}
+              
               کلمه عبور
             </label>
             <div className="flex  gap-2">
@@ -91,7 +91,7 @@ export default function Account() {
               className="text-[#525252] font-semibold text-base"
               htmlFor=""
             >
-              نام و نام خانوادگی{" "}
+              نام و نام خانوادگی
             </label>
             <div className="flex  gap-2">
               <p className="text-[#1C1C1F] text-xl font-semibold">
@@ -104,7 +104,7 @@ export default function Account() {
               className="text-[#525252] font-semibold text-base"
               htmlFor=""
             >
-              {" "}
+              
               کد ملی
             </label>
             <div className="flex  gap-2">
@@ -118,8 +118,8 @@ export default function Account() {
               className="text-[#525252] font-semibold text-base"
               htmlFor=""
             >
-              {" "}
-              تاریخ تولد{" "}
+              
+              تاریخ تولد
             </label>
             <div className="flex  gap-2">
               <p className="text-[#1C1C1F] text-xl font-semibold">
@@ -132,8 +132,8 @@ export default function Account() {
       <div className="">
         <div className="w-full pb-3 border-b mb-[2.5%] border-[#D3ADB7] flex justify-between">
           <p className="text-[#511424] font-extrabold text-xl">
-            {" "}
-            اطلاعات حساب بانکی{" "}
+            
+            اطلاعات حساب بانکی
           </p><button className="text-[#D3AE60] font-extrabold text-base flex items-center gap-1 ">
                 <Pen size={24} /> <p>ویرایش اطلاعات</p>
               </button>
@@ -144,7 +144,7 @@ export default function Account() {
               className="text-[#525252] font-semibold text-base"
               htmlFor=""
             >
-              شماره کارت بانکی{" "}
+              شماره کارت بانکی
             </label>
             <div className="flex  gap-2">
               <p className="text-[#1C1C1F] text-xl font-semibold">
@@ -157,8 +157,8 @@ export default function Account() {
               className="text-[#525252] font-semibold text-base"
               htmlFor=""
             >
-              {" "}
-              شماره شبای بانکی{" "}
+              
+              شماره شبای بانکی
             </label>
             <div className="flex  gap-2">
               <p className="text-[#1C1C1F] text-xl font-semibold">
@@ -171,8 +171,8 @@ export default function Account() {
               className="text-[#525252] font-semibold text-base"
               htmlFor=""
             >
-              {" "}
-              شماره حساب بانکی{" "}
+              
+              شماره حساب بانکی
             </label>
             <div className="flex  gap-2">
               <p className="text-[#1C1C1F] text-xl font-semibold">

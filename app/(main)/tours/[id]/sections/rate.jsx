@@ -17,7 +17,7 @@ export default function Rate() {
     <div className="px-6 py-16 grid gap-12">
       <div className="flex items-center ">
         <div className="flex items-center gap-1 ml-6">
-          <StarRating value={5} />{" "}
+          <StarRating value={5} />
           <p className="text-[#1C1C1F] font-semibold text-3xl">5</p>
         </div>
         <p className="text-base font-semibold text-[#555555]">۱۲۲ نظر</p>

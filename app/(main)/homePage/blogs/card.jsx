@@ -30,7 +30,7 @@ export default function Card() {
           </p>
         </div>
         <div className="flex justify-between items-center ">
-          <p className="text-base font-semibold text-[#1C1C1F]"> ۱۴۰۴/۰۲/۱۷ </p>{" "}
+          <p className="text-base font-semibold text-[#1C1C1F]"> ۱۴۰۴/۰۲/۱۷ </p>
           <div className="flex items-center gap-1 ">
             <Clock4 size={24} color="#525252" />
             <p className="text-sm font-semibold text-[#525252]">

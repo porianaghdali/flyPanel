@@ -98,7 +98,7 @@ export default function Calendar() {
   return (
     <div className="flex flex-col gap-4">
       <p className="text-[#555555] font-medium text-base">
-        قیمت تور در قبل و بعد از{" "}
+        قیمت تور در قبل و بعد از
         <span className="text-[#1C1C1F] font-bold">«تاریخ رفت»</span> انتخابی
         شما
       </p>

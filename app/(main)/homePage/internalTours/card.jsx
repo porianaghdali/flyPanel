@@ -27,7 +27,7 @@ export default function Card() {
           <p className="text-xl font-medium text-[#1C1C1F]">اسفند</p>
         </div>
         <div className="flex justify-between items-center">
-          <p className="text-xl font-medium text-[#1C1C1F]">از ۲۹٬۹۹۹٬۱۹۰ تومان</p>{" "}
+          <p className="text-xl font-medium text-[#1C1C1F]">از ۲۹٬۹۹۹٬۱۹۰ تومان</p>
           <Link
             href=""
             className="text-base py-2 px-5 rounded-3xl font-semibold bg-[#511424] text-white"

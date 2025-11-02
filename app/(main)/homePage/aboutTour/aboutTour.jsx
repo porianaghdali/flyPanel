@@ -46,7 +46,7 @@ export default function AboutTour() {
         <div className=" flex justify-end relative">
           <div className="p-8 grid gap-6 rounded-3xl bg-white shadow-[0px_4px_9px_3px_#0000001C] absolute top-[55%] right-0 -translate-y-1/2">
             <div className="flex gap-4 items-center ">
-              {" "}
+              
               <Image
                 src="/images/homePage/test.png"
                 width={66.5}
