@@ -19,8 +19,16 @@ export default function Header() {
 
   return (
     <div className="flex justify-between mb-16 px-[5%] pt-[3%]">
-
-      <ul className="flex gap-10">
+  <div className="">
+          <Image
+            src="/images/logo.png"
+            className=""
+            width={150}
+            height={44}
+            alt="Logo"
+          />
+        </div>
+      <ul className="flex justify-between w-[55%]">
         {list.map((item) => {
           const isActive = pathname === item.id; 
 

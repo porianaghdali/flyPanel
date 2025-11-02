@@ -59,7 +59,7 @@ export default function Footer() {
   ];
   return (
     <>
-      <div className="w-full grid grid-cols-2 justify-between  px-[5%] mb-8 pb-8 pt-[3%] border-b border-[#9999998F]">
+      <div className=" grid grid-cols-2 justify-between  px-[5%] mb-8 pb-8 pt-[3%] border-b border-[#9999998F]">
         <div className="max-w-[241px]">
           <Image
             src="/images/logo.png"
@@ -93,7 +93,7 @@ export default function Footer() {
                   <Link
                     key={item.id}
                     href=""
-                    className=" text-[#FFFFFF] font-normal text-base"
+                    className=" text-white font-normal text-base"
                   >
                     {item.title}
                   </Link>
@@ -109,7 +109,7 @@ export default function Footer() {
                   <Link
                     key={item.id}
                     href=""
-                    className=" text-[#FFFFFF] font-normal text-base"
+                    className=" text-white font-normal text-base"
                   >
                     {item.title}
                   </Link>
@@ -127,7 +127,7 @@ export default function Footer() {
                   <Link
                     key={item.id}
                     href=""
-                    className=" text-[#FFFFFF] font-normal text-base"
+                    className=" text-white font-normal text-base"
                   >
                     {item.title}
                   </Link>
@@ -137,9 +137,9 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="  px-[5%] flex justify-between mb-16">
-        <p className=" text-[#FFFFFF] text-sm font-medium">قوانین و مقررات استفاده</p>
-        <p className=" text-[#FFFFFF] text-sm font-medium">حق کپی رایت، محفوظ به راهیتو است.</p>
+      <div className="  px-[5%] flex justify-between mb-12">
+        <p className=" text-[#666666] text-sm font-medium">قوانین و مقررات استفاده</p>
+        <p className=" text-white text-sm font-medium">حق کپی رایت، محفوظ به راهیتو است.</p>
       </div>
     </>
   );

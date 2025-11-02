@@ -1,7 +1,7 @@
 import Home from "../page";
 
-export default function CategoryPage({ params }) {
-  const { category } = params;
-
+export default async function CategoryPage({ params }) {
+  const { category } = await params;
+  console.log(category);
   return <Home category={category} />;
 }

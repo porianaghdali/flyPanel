@@ -5,8 +5,8 @@ import Link from "next/link";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 
-export default function SearchSection() {  const pathname = usePathname();
-
+export default function SearchSection() {
+  const pathname = usePathname();
   const list = [
     {
       title: "تورهای داخلی",
@@ -76,13 +76,14 @@ export default function SearchSection() {  const pathname = usePathname();
           {list.map((item) => (
             <li
               className={`${
-                selected === item.id
+                pathname.includes(item.id) 
                   ? "bg-[#FDFBF7] border-0 rounded-t-3xl text-[#511424]"
                   : "border-b border-[#E6E6E6] text-[#939393]"
               } py-4 px-6 `}
               key={item.id}
             >
-              <Link href={`/${item.id}`}
+              <Link
+                href={`/${item.id}`}
                 role="tab"
                 aria-selected={selected === item.id}
                 className="  font-extrabold text-sm whitespace-nowrap"
