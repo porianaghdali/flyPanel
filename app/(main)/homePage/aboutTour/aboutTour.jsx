@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Card from "./card";
-import { Clock4 } from "lucide-react";
 
 export default function AboutTour() {
   const list = [

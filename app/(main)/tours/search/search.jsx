@@ -65,25 +65,7 @@ export default function SearchTisket() {
               </div>
             );
           })}
-          {/* <div className="flex w-full text-[#D3AE60] max-w-[152px] flex-col items-center justify-center gap-1 ">
-            <Bed />
-            <p className=" font-semibold text-base">انتخاب هتل</p>
-          </div>
-          <hr className="h-[2px]  bg-[#B1B3C8] w-full max-w-[173px]"/>
-          <div className="flex w-full text-[#B1B3C8] max-w-[152px] flex-col items-center justify-center gap-1 ">
-            <Plane />
-            <p className=" font-semibold text-base">انتخاب پرواز</p>
-          </div>
-          <hr className="h-[2px]  bg-[#B1B3C8] w-full max-w-[173px]"/>
-          <div className="flex w-full text-[#B1B3C8] max-w-[152px] flex-col items-center justify-center gap-1 ">
-            <Contact />
-            <p className=" font-semibold text-base">مشخصات مسافران</p>
-          </div>
-          <hr className="h-[2px]  bg-[#B1B3C8] w-full max-w-[173px]"/>
-          <div className="flex w-full text-[#B1B3C8] max-w-[152px] flex-col items-center justify-center gap-1 ">
-            <CreditCard />
-            <p className=" font-semibold text-base"> پرداخت و تهیه بلیت</p>
-          </div> */}
+      
         </div>
       </div>
     </div>

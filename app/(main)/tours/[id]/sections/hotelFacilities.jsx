@@ -1,4 +1,4 @@
-import StarRating from "@/app/components/starRate";
+import StarRating from "@/app/(main)/components/starRate";
 import { CarFront, Monitor, Refrigerator, Shield, Shirt, ShowerHead, Waves, Wifi } from "lucide-react";
 
 export default function HotelFacilities() {

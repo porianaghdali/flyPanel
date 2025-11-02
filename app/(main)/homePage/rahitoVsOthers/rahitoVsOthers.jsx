@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Card from "./card";
 
 export default function RahitoVsOthers() {

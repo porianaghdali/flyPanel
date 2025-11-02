@@ -1,10 +1,8 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Card({ title, description, src }) {
   return (
     <div className="relative group grid ">
-  {/* کارت اصلی */}
   <div className="w-full flex flex-col gap-8 rounded-3xl py-12 z-10 relative transition-all duration-300 hover:bg-white hover:shadow-[0px_4px_9px_3px_#0000001C]">
     <Image
       src={src}
@@ -28,7 +26,6 @@ export default function Card({ title, description, src }) {
     </div>
   </div>
 
-  {/* تصویر وکتور (زیر کارت) */}
   <Image
     src="/images/homePage/RahitoVsOthers/vector.png"
     width={86}

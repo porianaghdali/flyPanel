@@ -58,7 +58,10 @@ export default function Filter() {
           <p className="text-[#B1B3C8] text-sm font-normal">به تومان</p>
         </div>
         <div>
-          <div className="flex justify-between text-[#555555] font-semibold text-sm"><p>گران ترین</p><p>ارزان ترین</p></div>
+          <div className="flex justify-between text-[#555555] font-semibold text-sm">
+            <p>گران ترین</p>
+            <p>ارزان ترین</p>
+          </div>
           <RangeSlider />
         </div>
       </div>

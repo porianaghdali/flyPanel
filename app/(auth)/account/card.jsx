@@ -1,7 +1,5 @@
-import StarRating from "@/app/components/starRate";
-import { Calendar, Clock4, Star } from "lucide-react";
+import StarRating from "../components/starRate";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Card() {
   return (

@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Header from "../../components/loginHeader";
-import Footer from "@/app/components/loginFooter";
+import Header from "../components/loginHeader";
+import Footer from "../components/loginFooter";
 
 export default function LoginPage() {
   return (

@@ -1,7 +1,7 @@
 "use client";
 import { User } from "lucide-react";
-import Header from "../../components/accountHeader";
-import Footer from "@/app/components/accountFooter";
+import Header from "../components/accountHeader";
+import Footer from "../components/accountFooter";
 
 import { usePathname } from "next/navigation";
 import Link from "next/link";

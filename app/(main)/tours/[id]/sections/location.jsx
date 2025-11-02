@@ -1,4 +1,4 @@
-import StarRating from "@/app/components/starRate";
+import StarRating from "@/app/(main)/components/starRate";
 import {
   CarFront,
   Monitor,
