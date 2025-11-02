@@ -18,7 +18,7 @@ export default function Header() {
   ];
 
   return (
-    <div className="flex justify-between mb-16 px-[7%] pt-[3%]">
+    <div className="flex justify-between mb-16 px-[5%] pt-[3%]">
       <Image src="/images/logo.png" width={150} height={44} alt="Logo" />
 
       <ul className="flex gap-10">
@@ -41,7 +41,7 @@ export default function Header() {
       </ul>
 
       <Link
-        href="/sing-up"
+        href="/login"
         className="flex gap-2 items-center py-2.5 pr-6 pl-4 rounded-3xl bg-[#1C1C1F]"
       >
         <span className="text-white">ورود/ثبت‌نام</span>
